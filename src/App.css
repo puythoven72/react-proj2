@@ -1,0 +1,164 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background: black;
+}
+
+form {
+      background-color: #505E75;
+}
+
+.mobile-search {
+    display: none;
+}
+
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.header {
+    border: 2px black solid;
+    margin-bottom: 10px;
+    background-color: #5D97F5;
+}
+
+
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 35px;
+    color: white !important;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1)!important;
+}
+
+
+a {
+    color: white !important;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1)!important;
+}
+
+.search-form {
+    border: 3px #5D97F5 solid;
+    padding: 20px;
+}
+
+
+.radio-div {
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+input {
+    margin-bottom: 20px;
+}
+
+
+
+#return-count {
+    color: white;
+}
+
+.main {
+    color: white;
+    margin: 20px 5px 0 5px;
+    border: 2px #5D97F5 solid;
+}
+
+
+
+#giph-display-content {
+    margin: 10px;
+    padding: 20px;
+  flex-wrap: wrap;
+}
+
+#giph-display-content h1 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    font-size: 16px;
+
+}
+
+.amt-input {
+    margin-right: 5%;
+}
+
+
+
+.card {
+    background-color: #505E75;
+    height: 245px;
+    width: 245px;
+    margin: 5px;
+    color: white;
+   min-width: 20%;
+   flex-direction: 'row';
+   
+}
+
+.item-img {
+    width: 180px;
+    height: 180px;
+    padding-top: 10px;
+}
+
+
+
+#searchButton {
+    background-color: #5D97F5 ;
+}
+
+.footer {
+    padding: 30px 0 30px 0;
+}
+
+
+@media only screen and (max-width: 850px) {
+    
+
+    .web-search {
+        display: none;
+    }
+
+    .mobile-search {
+        margin-top: 10px;
+        display: block;
+
+    }
+
+    .radio-div {
+        padding-left: 30%;
+    }
+
+    .amt-input {
+        margin-right: 0;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .radio-div {
+        padding-left: 20%;
+    }
+
+    @media only screen and (max-width: 500px) {
+
+        #giph-display {
+            text-align: center;
+        }
+
+
+    }
+
+  }
